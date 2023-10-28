@@ -1,0 +1,30 @@
+.btn {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.btn-size--small {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+.btn-size--regular {
+  font-size: 13px;
+  padding: 14px 10px;
+}
+.btn-size--large {
+  font-size: 13px;
+  padding: 20px 14px;
+}
+.btn-shape--default{
+  border-radius: 5px;
+}
+.btn-shape--circle{
+  border-radius: -10%;
+}
+.btn-shape--square{
+  border-radius: 0;
+}
