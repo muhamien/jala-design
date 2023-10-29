@@ -5,13 +5,31 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontSize:{
+      "xs": "0.786rem",
+      "sm": "0.857rem",
+      "base": "1rem",
+      // "lg": "1.286rem",
+      "xl": "1.286rem",
+      "2xl": "1.429rem",
+      "3xl": "1.714rem",
+      "4xl": "2.143rem",
+      "5xl": "2.571rem",
+      "6xl": "3.429rem",
+    },
     extend: {
+      lineHeight: {
+        '11': '4rem',
+      },
       fontFamily: {
-        sans : ['"Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
-        serif: ['ui-serif, Georgia, Cambria, "Times New Roman", Times, serif'],
-        mono: ['"IBM Mono Plex", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace']
+        sans : ['Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'],
+        serif: ['Inter, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif'],
+        mono: ['IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace']
       },
       colors: {
+        "base-black": "#000000",
+        "base-white": "#FFFFFF",
+
         "jla-50": "#E8F0FF",
         "jla-100": "#D1E3F9",
         "jla-200": "#B5D7FF",
