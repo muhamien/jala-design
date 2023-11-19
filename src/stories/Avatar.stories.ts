@@ -22,9 +22,77 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Default: Story = {
+export const CircularAvatar: Story = {
   args: {
-    shape: 'circle',
+    srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
     size: 'default',
+  },
+};
+export const RoundedAvatar: Story = {
+  args: {
+    srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'rounded',
+    size: 'default',
+  },
+};
+export const SolidVariant: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    initial: 'A'
+  },
+};
+export const SoftVariant: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    initial: 'B',
+    variant: 'soft'
+  },
+};
+export const OutlineVariant: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    initial: 'B',
+    variant: "outline"
+  },
+};
+export const WhiteVariant: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    variant:'white'
+  },
+};
+export const PlaceholderIcon: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    placeholder: 'icon'
+  },
+};
+export const PlaceholderInitial: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    placeholder: 'initial'
+  },
+};
+export const Status: Story = {
+  args: {
+    // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    shape: 'circular',
+    size: 'default',
+    placeholder: 'initial',
+    hasStatus: true,
+    statusPlacement: 'top-right',
   },
 };

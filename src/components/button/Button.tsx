@@ -4,7 +4,7 @@ interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  type: 'primary' | 'secondary' | 'success' | 'warning' | 'destructive' | 'link';
+  type: 'primary' | 'secondary' | 'success' | 'warning' | 'danger' | 'link';
   /**
    * How large should the button be?
    */
@@ -94,7 +94,7 @@ export const Button = ({
         buttonClass='bg-[#FF9D0B] text-white hover:bg-[#EB920D] ease-out duration-300 focus:outline-none focus:ring-2 focus:ring-[#EB920D] cursor-pointer';
       }
       break;
-    case "destructive":
+    case "danger":
       if(!!disabled){
         buttonClass='bg-[#FD919A] text-white cursor-not-allowed';
       } else {
