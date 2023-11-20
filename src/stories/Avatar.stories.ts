@@ -41,7 +41,7 @@ export const SolidVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'J'
+    label: 'J'
   },
 };
 export const SoftVariant: Story = {
@@ -49,7 +49,7 @@ export const SoftVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'J',
+    label: 'J',
     variantStyle: 'soft',
     variantColor: 'blue'
   },
@@ -59,7 +59,7 @@ export const OutlineVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'J',
+    label: 'J',
     variantStyle: "outline",
     variantColor: 'green'
   },
@@ -70,7 +70,7 @@ export const WhiteVariant: Story = {
     shape: 'circular',
     size: 'default',
     variantStyle: 'white',
-    initial: 'JALA DESIGN'
+    label: 'JALA DESIGN'
   },
 };
 export const PlaceholderIcon: Story = {
@@ -86,10 +86,10 @@ export const PlaceholderInitial: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    placeholder: 'initial',
+    placeholder: 'label',
     variantStyle: 'solid',
     variantColor: 'yellow',
-    initial: 'JALA DESIGN'
+    label: 'JALA DESIGN'
   },
 };
 export const Status: Story = {
@@ -97,8 +97,8 @@ export const Status: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    placeholder: 'initial',
-    initial: 'JALA DESIGN',
+    placeholder: 'label',
+    label: 'JALA DESIGN',
     status: 'online',
     statusPlacement: 'top-right',
   },

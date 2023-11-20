@@ -20,7 +20,7 @@ interface AvatarProps {
     shape?: 'circular' | 'rounded';
 
     /**
-     * Set the avatar variant, it works when the placeholder is 'initial', default value is 'solid'.
+     * Set the avatar variant, it works when the placeholder is 'label', default value is 'solid'.
      */
     variantStyle?: 'solid' | 'soft' | 'outline' | 'white';
 
@@ -38,7 +38,7 @@ interface AvatarProps {
     variantColor?: 'dark' | 'light' | 'green' | 'blue' | 'red' | 'yellow' | 'white';
 
     /**
-     * Placeholder type for the avatar. Can be 'initial' or 'icon'.
+     * Placeholder type for the avatar. Can be 'label' or 'icon'.
      */
     placeholder?: 'label' | 'icon';
 
@@ -73,7 +73,7 @@ interface AvatarProps {
     style?: React.CSSProperties;
 
     /**
-     * Initial letter or character to be displayed when there's no image or icon.
+     * Label letter or character to be displayed when there's no image or icon.
      */
     label?: string;
 
@@ -106,7 +106,7 @@ const getInitialValue = (value:string,numbChar:number=1) => {
 export const Avatar: React.FC<AvatarProps> = ({
     shape = 'circular',
     size = 'default',
-    placeholder = "initial",
+    placeholder = "label",
     label = "A",
     status = 'none',
     statusPlacement = 'top-right',
@@ -117,7 +117,7 @@ export const Avatar: React.FC<AvatarProps> = ({
     alt,
   }) => {
     const variantClass = (variantStyle:string, variantColor:string, placeholder:string) => {
-        if (placeholder==='initial'){
+        if (placeholder==='label'){
             switch (variantStyle) {
                 case("white"):
                     return `inline-flex items-center justify-center font-semibold leading-none ${getVariantWhiteColor()}`;
