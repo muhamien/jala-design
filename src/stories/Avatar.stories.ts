@@ -41,7 +41,7 @@ export const SolidVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'A'
+    initial: 'J'
   },
 };
 export const SoftVariant: Story = {
@@ -49,8 +49,9 @@ export const SoftVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'B',
-    variant: 'soft'
+    initial: 'J',
+    variantStyle: 'soft',
+    variantColor: 'blue'
   },
 };
 export const OutlineVariant: Story = {
@@ -58,8 +59,9 @@ export const OutlineVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    initial: 'B',
-    variant: "outline"
+    initial: 'J',
+    variantStyle: "outline",
+    variantColor: 'green'
   },
 };
 export const WhiteVariant: Story = {
@@ -67,7 +69,8 @@ export const WhiteVariant: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    variant:'white'
+    variantStyle: 'white',
+    initial: 'JALA DESIGN'
   },
 };
 export const PlaceholderIcon: Story = {
@@ -83,7 +86,10 @@ export const PlaceholderInitial: Story = {
     // srcSet: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
     shape: 'circular',
     size: 'default',
-    placeholder: 'initial'
+    placeholder: 'initial',
+    variantStyle: 'solid',
+    variantColor: 'yellow',
+    initial: 'JALA DESIGN'
   },
 };
 export const Status: Story = {
@@ -92,7 +98,8 @@ export const Status: Story = {
     shape: 'circular',
     size: 'default',
     placeholder: 'initial',
-    hasStatus: true,
+    initial: 'JALA DESIGN',
+    status: 'online',
     statusPlacement: 'top-right',
   },
 };
