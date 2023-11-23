@@ -1,6 +1,11 @@
 # React + TypeScript + Vite
 
 Figma: https://www.figma.com/file/T0TUGURgVGElV6MtU2EPYU/JALA-Design-System---%5Bname%5D?type=design&t=5fqQYqjnx9FrOx6y-6
+Reference: https://preline.co/docs/index.html
+
+How to Contribute:
+1. Create a component: Create a branch based on the component's name, following this doc: https://danielkummer.github.io/git-flow-cheatsheet/index.id_ID.html
+2. Push the component you made and create a pull request
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
