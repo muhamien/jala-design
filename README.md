@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+Figma: https://www.figma.com/file/T0TUGURgVGElV6MtU2EPYU/JALA-Design-System---%5Bname%5D?type=design&t=5fqQYqjnx9FrOx6y-6
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
