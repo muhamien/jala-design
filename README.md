@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+Project structure map (on-progress): https://whimsical.com/banyu-EUo3jmHdi5UtxqAxBQP9J3
+
 Figma: https://www.figma.com/file/T0TUGURgVGElV6MtU2EPYU/JALA-Design-System---%5Bname%5D?type=design&t=5fqQYqjnx9FrOx6y-6
 Reference: https://preline.co/docs/index.html
 
